@@ -1,0 +1,110 @@
+.body {
+    
+  color: rgb(8, 4, 30);
+}
+.div {
+display: flex;
+/* background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+align-content: flex-start;
+}
+.child{
+padding-top: 100px;
+width: 70%;
+text-align: left;
+margin-left: 300px;
+
+
+
+
+}
+
+.child h4{
+  font-weight: 600;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.child ul{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: large;
+  
+  
+}
+.child h1{
+  color: #1c2237;
+}
+
+/*.child select{
+  background-color: #1c2237;
+  font-size: 25px;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 5px;
+  border: 0ch;
+  box-shadow: 3px 3px grey;
+}*/
+.image {
+  height: 20%;  
+  padding-top: 50px; 
+  padding-left: 50px ; 
+  padding-bottom: 40px;
+  border-radius: 30px;
+ 
+  /* margin-right: 50px; 
+  align-content: flex-start;*/
+  width: 30%;
+ 
+}
+  
+  
+.image2 {
+height: 100%;
+max-height: 600px;
+max-width: 600px;  
+
+padding-bottom: 40px;
+/* margin-right: 50px; */
+align-content: flex-start;
+
+width: 100%;
+
+
+
+}
+.bt-1{
+  border-radius: 10px;
+
+  background-color:#1c2237;
+  font-size: 25px;
+  padding: 5px 15px;
+  color: white;
+  border: 0ch;
+  box-shadow: 3px 3px grey;
+  
+  width: 150px;
+  margin:0 20px;
+  display:inline-block;
+  /* line-height: 60px; */
+}
+
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 3000px) {
+  body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(3, 0, 0);
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 700px) {
+  body {
+    background-color: transparent;
+    background-image: none;
+    color: black;
+  }
+  
+}
